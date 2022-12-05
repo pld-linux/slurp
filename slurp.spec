@@ -1,15 +1,16 @@
 Summary:	Select a region in a Wayland compositor
 Name:		slurp
-Version:	1.3.2
+Version:	1.4.0
 Release:	1
 License:	MIT
 Group:		Applications
 Source0:	https://github.com/emersion/slurp/releases/download/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	05e2d6c212b165897458a8aeec82d6db
+# Source0-md5:	5a0777f85940eb42ffb0dbe0c3a8313f
 URL:		https://wayland.emersion.fr/slurp
 BuildRequires:	cairo-devel
 BuildRequires:	meson >= 0.48.0
 BuildRequires:	ninja
+BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.736
 BuildRequires:	scdoc
 BuildRequires:	wayland-devel
